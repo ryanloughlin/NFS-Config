@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>PayloadIdentifier</key>
+<string>us.nh.k12.portsmouth.nfs.dock</string>
+<key>PayloadRemovalDisallowed</key>
+<false/>
+<key>PayloadScope</key>
+<string>User</string>
+<key>PayloadType</key>
+<string>Configuration</string>
+<key>PayloadUUID</key>
+<string>496d0e00-46a2-0134-77cd-3c075409fa49</string>
+<key>PayloadOrganization</key>
+<string>shadowfax.portsmouth.k12.nh.us</string>
+<key>PayloadVersion</key>
+<integer>1</integer>
+<key>PayloadDisplayName</key>
+<string>NFS Dock</string>
+<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadType</key>
+				<string>com.apple.dock</string>
+			<key>PayloadVersion</key>
+				<integer>1</integer>
+			<key>PayloadIdentifier</key>
+				<string>cus.nh.k12.portsmouth.nfs.dock</string>
+			<key>PayloadEnabled</key>
+				<true/>
+			<key>PayloadUUID</key>
+				<string>6a5fa1e0-46a2-0134-77ce-3c075409fa49</string>
+			<key>PayloadDisplayName</key>
+				<string>NFS Dock</string>
+			<key>launchanim</key>
+				<false/>
+			<key>launchanim-immutable</key>
+				<true/>
+			<key>show-process-indicators</key>
+				<true/>
+			<key>show-process-indicators-immutable</key>
+				<true/>
+			<key>MCXDockSpecialFolders</key>
+			<array>
+				<string>AddDockMCXDocumentsFolder</string>
+				<string>AddDockMCXOriginalNetworkHomeFolder</string>
+			</array>
+			<key>contents-immutable</key>
+				<false/>
+			<key>static-only</key>
+				<false/>
+			<key>updated-at-xid</key>
+				<integer>1404286</integer>
+			<key>static-apps</key>
+			<array>
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+						<dict>
+							<key>file-label</key>
+							<string>Safari</string>
+							<key>file-data</key>
+								<dict>
+									<key>_CFURLString</key>
+									<string>/Applications/Safari.app</string>
+									<key>_CFURLStringType</key>
+									<integer>0</integer>
+								</dict>
+						</dict>
+				</dict>
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+						<dict>
+							<key>file-label</key>
+							<string>Firefox</string>
+							<key>file-data</key>
+								<dict>
+									<key>_CFURLString</key>
+									<string>/Applications/Firefox.app</string>
+									<key>_CFURLStringType</key>
+									<integer>0</integer>
+								</dict>
+						</dict>
+				</dict>
+
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+						<dict>
+							<key>file-label</key>
+							<string>Chrome</string>
+							<key>file-data</key>
+								<dict>
+									<key>_CFURLString</key>
+									<string>/Applications/Google Chrome.app</string>
+									<key>_CFURLStringType</key>
+									<integer>0</integer>
+								</dict>
+						</dict>
+				</dict>
+
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+						<dict>
+							<key>file-label</key>
+							<string>Word</string>
+							<key>file-data</key>
+								<dict>
+									<key>_CFURLString</key>
+									<string>/Applications/Microsoft Office 2011/Microsoft Word.app</string>
+									<key>_CFURLStringType</key>
+									<integer>0</integer>
+								</dict>
+						</dict>
+				</dict>
+
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+						<dict>
+							<key>file-label</key>
+							<string>Excel</string>
+							<key>file-data</key>
+								<dict>
+									<key>_CFURLString</key>
+									<string>/Applications/Microsoft Office 2011/Microsoft Excel.app</string>
+									<key>_CFURLStringType</key>
+									<integer>0</integer>
+								</dict>
+						</dict>
+				</dict>
+
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+						<dict>
+							<key>file-label</key>
+							<string>PowerPoint</string>
+							<key>file-data</key>
+								<dict>
+									<key>_CFURLString</key>
+									<string>/Applications/Microsoft Office 2011/Microsoft PowerPoint.app</string>
+									<key>_CFURLStringType</key>
+									<integer>0</integer>
+								</dict>
+						</dict>
+				</dict>
+
+				<dict>
+					<key>mcx_typehint</key>
+					<integer>1</integer>
+					<key>tile-type</key>
+					<string>file-tile</string>
+					<key>tile-data</key>
+						<dict>
+							<key>file-label</key>
+							<string>KidPix</string>
+							<key>file-data</key>
+								<dict>
+									<key>_CFURLString</key>
+									<string>/Applications/Kid Pix Deluxe 3D.app</string>
+									<key>_CFURLStringType</key>
+									<integer>0</integer>
+								</dict>
+						</dict>
+				</dict>
+
+
+
+
+
+
+			</array>
+			<key>static-others</key>
+			<array/>
+		</dict>
+	</array>
+</dict>
+</plist>
