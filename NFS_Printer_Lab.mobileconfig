@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>PayloadOrganization</key>
+		<string>Portsmouth School Department</string>
+		<key>PayloadIdentifier</key>
+		<string>us.nh.k12.portsmouth.newfranklinlabprint</string>
+		<key>PayloadDisplayName</key>
+		<string>New Franklin Lab Printers</string>
+		<key>PayloadUUID</key>
+		<string>D7E921AE-628B-4841-966C-027784CE4C37</string>
+		<key>PayloadDescription</key>
+		<string>Adds New Franklin Lab Printer.</string>
+		<key>PayloadType</key>
+		<string>Configuration</string>
+		<key>PayloadVersion</key>
+		<integer>1</integer>
+		<key>PayloadContent</key>
+		<array>
+			<dict>
+			<key>PayloadUUID</key>
+			<string>6849A37A-286A-4A45-80A7-B903A46BBFE4</string>
+			<key>PayloadType</key>
+			<string>com.apple.mcxprinting</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+				<key>UserPrinterList</key>
+				<dict>
+					<key>NFS111LabColorLaser</key>
+					<dict>
+						<key>DeviceURI</key>
+						<string>lpd://10.100.0.8/NFS111LabColorLaser</string>
+						<key>DisplayName</key>
+						<string>NFS111LabColorLaser</string>
+						<key>Location</key>
+						<string>New Franklin Computer Lab</string>
+						<key>Model</key>
+						<string>Xerox ColorQube 8570DN</string>
+						<key>PrinterLocked</key>
+						<false/>
+						<key>PPDURL</key>
+						<string>file://localhost/Library/Printers/PPDs/Contents/Resources/Xerox ColorQube 8570DN.gz</string>
+					</dict>
+					<key>NFS111LabLaser</key>
+					<dict>
+						<key>DeviceURI</key>
+						<string>lpd://10.100.0.8/NFS111LabLaser</string>
+						<key>DisplayName</key>
+						<string>NFS111LabLaser</string>
+						<key>Location</key>
+						<string>New Franklin Computer Lab</string>
+						<key>Model</key>
+						<string>HP LaserJet 4200</string>
+						<key>PrinterLocked</key>
+						<false/>
+						<key>PPDURL</key>
+						<string>file://localhost/Library/Printers/PPDs/Contents/Resources/HP LaserJet 4200 Series.gz</string>
+					</dict>
+				</dict>
+			</dict>
+		</array>
+	</dict>
+</plist>
